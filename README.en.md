@@ -39,18 +39,18 @@ Apply reporting deadlines with the relevant triggers, report types, and statutor
 
 | Document | 简体中文 | English |
 | :---- | :---- | :---- |
-| Current checklist entry | [latest](CRA_Checklist_Requirement_latest.md) | [latest](CRA_Checklist_Requirement_latest.en.md) |
+| Latest checklist in full | [latest](CRA_Checklist_Requirement_latest.md) | [latest](CRA_Checklist_Requirement_latest.en.md) |
 | Version 1.0 checklist | [Chinese text](1.0/zh-CN/CRA_Checklist_Requirement_v1.0.md) | [English text](1.0/CRA_Checklist_Requirement_v1.0.md) |
 | Contribution guide | [中文](CONTRIBUTING.md) | [English](CONTRIBUTING.en.md) |
 | Contributors and reviewers | [中文](CONTRIBUTORS.md) | [English](CONTRIBUTORS.en.md) |
-| Revision history | [中文](REVISION_HISTORY.md) | [English](REVISION_HISTORY.en.md) |
+| Version 1.0 revision history | [中文](1.0/zh-CN/REVISION_HISTORY.md) | [English](1.0/REVISION_HISTORY.md) |
 | External references and adoption | [中文](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md) | [English](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.en.md) |
 | Translation and review notes | [中文](TRANSLATION_NOTES.md) | [English](TRANSLATION_NOTES.en.md) |
 | License (original only) | [LICENSE](LICENSE) | [LICENSE](LICENSE) |
 | Version directory | [1.0](1.0/README.md) | [1.0](1.0/README.en.md) |
 | Historical archive | [versions](versions/README.md) | [versions](versions/README.en.md) |
 
-Root documents default to Chinese; English documents use the `.en.md` suffix. Version 1.0 English originals remain in `1.0/`, with complete Chinese translations in `1.0/zh-CN/`. The root `CRA_Checklist_Requirement_latest.md` links to the version 1.0 Chinese text rather than maintaining a separate checklist copy. `Pre-Release-Versions/` has been removed; the remaining historical draft is retained for traceability only.
+Root documents default to Chinese; English documents use the `.en.md` suffix. Version 1.0 English originals remain in `1.0/`, with complete Chinese translations in `1.0/zh-CN/`. The root `CRA_Checklist_Requirement_latest.md` and `CRA_Checklist_Requirement_latest.en.md` display the complete current Chinese and English checklists, respectively, synchronized with version 1.0. Version directories retain the archived copies. `Pre-Release-Versions/` has been removed; the remaining historical draft is retained for traceability only.
 
 ## Use
 

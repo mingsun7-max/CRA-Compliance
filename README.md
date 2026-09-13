@@ -39,18 +39,18 @@
 
 | 文档 | 简体中文 | English |
 | :---- | :---- | :---- |
-| 当前清单入口 | [latest](CRA_Checklist_Requirement_latest.md) | [latest](CRA_Checklist_Requirement_latest.en.md) |
+| 最新清单全文 | [latest](CRA_Checklist_Requirement_latest.md) | [latest](CRA_Checklist_Requirement_latest.en.md) |
 | 1.0 版本清单 | [中文全文](1.0/zh-CN/CRA_Checklist_Requirement_v1.0.md) | [英文全文](1.0/CRA_Checklist_Requirement_v1.0.md) |
 | 贡献指南 | [中文](CONTRIBUTING.md) | [English](CONTRIBUTING.en.md) |
 | 贡献者与审阅者 | [中文](CONTRIBUTORS.md) | [English](CONTRIBUTORS.en.md) |
-| 修订历史 | [中文](REVISION_HISTORY.md) | [English](REVISION_HISTORY.en.md) |
+| 1.0 修订历史 | [中文](1.0/zh-CN/REVISION_HISTORY.md) | [English](1.0/REVISION_HISTORY.md) |
 | 外部引用与采用情况 | [中文](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md) | [English](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.en.md) |
 | 翻译说明与核对提示 | [中文](TRANSLATION_NOTES.md) | [English](TRANSLATION_NOTES.en.md) |
 | 许可证（仅保留原文） | [LICENSE](LICENSE) | [LICENSE](LICENSE) |
 | 版本目录 | [1.0](1.0/README.md) | [1.0](1.0/README.en.md) |
 | 历史归档 | [versions](versions/README.md) | [versions](versions/README.en.md) |
 
-根目录默认使用中文，英文文档采用 `.en.md` 后缀。1.0 英文原文保留在 `1.0/`，完整中文译文位于 `1.0/zh-CN/`。根目录 `CRA_Checklist_Requirement_latest.md` 是指向 1.0 中文全文的链接页，不另行维护清单副本。`Pre-Release-Versions/` 已移除；仍保留的历史稿仅供追溯。
+根目录默认使用中文，英文文档采用 `.en.md` 后缀。1.0 英文原文保留在 `1.0/`，完整中文译文位于 `1.0/zh-CN/`。根目录 `CRA_Checklist_Requirement_latest.md` 和 `CRA_Checklist_Requirement_latest.en.md` 分别展示当前最新版本的中文和英文全文，现与 1.0 对应版本同步；版本目录保留归档。`Pre-Release-Versions/` 已移除；仍保留的历史稿仅供追溯。
 
 ## 使用说明
 
