@@ -4,6 +4,22 @@ The OpenChain CRA Compliance Requirements & Checklist is a community-maintained,
 
 It is mapped to Regulation (EU) 2024/2847 and aligned with ISO/IEC 18974, ISO/IEC 5230, and relevant SBOM guidance including BSI TR-03183.
 
+## 简体中文版 / Simplified Chinese
+
+**Version 1.0 now has an unofficial Simplified Chinese translation**, covering all 193 checklist items, the implementation roadmap, annexes, references, and the three supporting registers.
+
+**现已提供 1.0 版本的非官方简体中文译本**，包括完整主清单及三份配套文件，保留英文原文，并另附术语对照、版本来源及译者核对提示。
+
+- [中文导读与翻译说明 / Chinese guide and translation notes](1.0/zh-CN/README.md)
+- [CRA 合规要求与检查清单 1.0 / Full checklist](1.0/zh-CN/CRA_Checklist_Requirement_v1.0.md)
+- [外部引用与采用情况 / External references and adoption](1.0/zh-CN/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
+- [贡献者与审阅者 / Contributors and reviewers](1.0/zh-CN/CONTRIBUTORS.md)
+- [修订历史 / Revision history](1.0/zh-CN/REVISION_HISTORY.md)
+
+Translation date: **2026-09-13**. Source: version 1.0 at commit `cd497f7a5a8daca97e50d049bfd9d4a6c60376e9`. The translation is a reference draft for review, has not been endorsed by OpenChain or signed off by qualified legal counsel, and does not constitute legal advice or certification. Check the English source for translation ambiguities and the applicable official EU legal texts for legal obligations. It does not automatically track future `latest` updates. The translation is provided under the repository's CC-BY-4.0 license.
+
+译文为供审阅的参考译稿，未经 OpenChain 官方认可或合格律师签署确认；不构成法律意见或认证，也不自动跟随 `latest` 更新。翻译歧义应核对英文原文，法律义务以适用的欧盟官方法律文本为准。译文沿用仓库 CC-BY-4.0 许可。
+
 ## Overview
 
 The CRA (Regulation (EU) 2024/2847) establishes mandatory cybersecurity requirements for products with digital elements placed on the EU market. Organizations that develop, maintain, or distribute software with digital elements must ensure their products meet essential cybersecurity requirements throughout the product lifecycle.
@@ -20,6 +36,7 @@ The checklist covers program governance, product assessment, SBOM quality, vulne
 | `REVISION_HISTORY.md` | Review cycle and major change register |
 | `ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md` | External references, use, tooling, and adoption register |
 | `1.0` | Archive directory for checklist version 1.0 |
+| [`1.0/zh-CN`](1.0/zh-CN/README.md) | Unofficial Simplified Chinese translations of version 1.0 and its supporting registers, with translation notes |
 | `Pre-Release-Versions` | Archive directory for pre-release checklist versions |
 
 ## Checklist Structure
