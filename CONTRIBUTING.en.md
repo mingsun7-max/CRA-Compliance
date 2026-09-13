@@ -139,7 +139,7 @@ Major updates, milestones, and review announcements may also be shared on the [*
 
 These repository-specific rules supplement the upstream guide above.
 
-- Report translation, link, or formatting issues through [this repository's issues](https://github.com/mingsun7-max/CRA-Compliance/issues) or pull requests, identifying the language, file, checklist item, and source text.
+- Report translation, link, or formatting issues through [this repository's issues](https://github.com/mingsun7-max/CRA-Compliance-CN/issues) or pull requests, identifying the language, file, checklist item, and source text.
 - Root documents default to Chinese; English files use `.en.md`. Keep reciprocal language links and review the other language when updating content.
 - Archive versioned checklists in their version directories. The Chinese and English root `latest` files each display the complete current version. Keep each versioned file and its corresponding `latest` text synchronized, adjusting relative links. Historical drafts are not substitutes for the current checklist.
 - Preserve must/must not, should, and may distinctions, legal references, numbering, qualifications, fill-in fields, and attribution. Flag legal issues in the source separately rather than silently rewriting them.

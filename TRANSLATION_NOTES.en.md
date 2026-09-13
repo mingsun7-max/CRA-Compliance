@@ -15,7 +15,7 @@
 
 These are translations of specified source versions, not official Chinese legislation, product compliance conclusions, conformity assessments, certifications, or legal opinions. Consult the corresponding English source for translation ambiguities. Determine legal obligations, conditions, and legal effect from the applicable official EU texts; neither the checklist nor its translations replace the law.
 
-Numbering, classification labels, checkboxes, evidence fields, and cross-references are preserved. Personal and organizational names, product names, legal and standards identifiers, email addresses, technical fields, and status codes generally remain unchanged. Bracketed instructions are translated but their fields remain unfilled. Unconfirmed and TBD entries are translated without inventing missing information.
+Numbering, classification labels, checkboxes, evidence fields, and cross-references are preserved. Personal and organizational names, product names, legal and standards identifiers, email addresses, technical fields, and status codes generally remain unchanged. Bracketed instructions are translated but their fields remain unfilled. `[confirm]` and `TBD` markers are rendered as 待确认 and 待定 respectively, without inventing missing information.
 
 | Source term | Chinese rendering / treatment |
 | :---- | :---- |
@@ -25,9 +25,10 @@ Numbering, classification labels, checkboxes, evidence fields, and cross-referen
 | CRA REQUIREMENT / DIRECT CRA OBLIGATION | CRA 要求 / CRA 直接义务; the author's classification, not a renewed legal certification |
 | GOOD PRACTICE | 良好实践 |
 | CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL | 符合性证据 / 实施控制 |
-| ORGANIZATION SBOM PROFILE / IMPLEMENTATION CONTROL | 组织 SBOM 配置要求 / 实施控制 |
+| ORGANIZATION SBOM PROFILE / IMPLEMENTATION CONTROL | 组织 SBOM 规范 / 实施控制 |
+| profile (CSAF VEX profile, SPDX hardware profile) | kept in English as “profile”; denotes a document type or data-model layer of a standard, not a configuration file (配置文件). “Organization SBOM profile” is rendered by meaning as 组织 SBOM 规范 with the English in parentheses |
 | LEGAL REVIEW / IMPLEMENTATION CONTROL | 法律审查 / 实施控制 |
-| placing on the market / making available on the market | 投放市场 / 在市场提供; kept distinct |
+| placing on the market / making available on the market | 投放市场 / 在市场上提供; kept distinct |
 | product with digital elements (PDE) | 含数字要素的产品 |
 | free and open-source software (FOSS) / freeware | 自由和开源软件 / 免费软件; free of charge is not equated with open source |
 | open-source software steward / maintainer | 开源软件管理者 / 维护者; distinguishes the statutory organizational role from maintenance |
@@ -35,14 +36,20 @@ Numbering, classification labels, checkboxes, evidence fields, and cross-referen
 | self-certification | 自我认证; follows the source without implying third-party certification |
 | notified body / authorised representative | 公告机构 / 授权代表 |
 | harmonised standards / presumption of conformity | 协调标准 / 符合性推定 |
+| conformity claim / conformance claim | 符合性主张; an organization's outward claim of conformity, distinguished from the statutory EU Declaration of Conformity (欧盟符合性声明) |
+| important products Class I / Class II; critical products | 第 I 类 / 第 II 类重要产品; 关键产品 |
 | essential cybersecurity requirements | 基本网络安全要求 |
-| without undue delay / without delay | 无不当延迟地 / 不延迟地 |
+| without undue delay / without delay | 无不当延迟地 / 无延迟地 |
 | actively exploited vulnerability | 正被主动利用的漏洞; distinct from every known or theoretically exploitable vulnerability |
-| Technical File / technical documentation | 技术文档（成套资料） / 技术文件 |
+| Technical File / technical documentation | both rendered as 技术文档; in the source both denote the same set of documents under CRA Article 31 and Annex VII |
 | provenance / integrity / completeness | 来源（含来源证明） / 完整性（防篡改） / 完整程度（覆盖是否齐全） |
+| documented (adjective) | 形成文件的 |
+| essential / important entities (NIS2) | 基本实体 / 重要实体 |
 | declared license / concluded license | 声明许可证 / 判定许可证 |
 | RACI | 执行责任 (Responsible), 最终责任 (Accountable), 征询 (Consulted), 知会 (Informed) |
 | statutory Annex / checklist Annex | 附件 / 附录 |
+
+These terminology conventions apply to the version 1.0 checklist and its supporting files; the PA_5.1 historical draft under `versions/` keeps the wording used at the time of its translation and was not changed in this pass.
 
 <a id="source-review"></a>
 ## Translator review notes: source statements and limits of use
@@ -59,6 +66,7 @@ These additions are **not part of the English source and are not a complete lega
 | §8.2.1–8.2.2 | Article 12 includes conditions and procedural exceptions. Article 12(1)(c) specifically requires the EU Declaration of Conformity to demonstrate the cybersecurity protection level required by AI Act Article 15. The summary does not establish automatic compliance with all AI rules. [Legal provisions: Article 12](https://www.cyberresilienceact.eu/regulation.html#art-12). |
 | §2.7, §4.5.4, Appendix A, and references | Historical dates and “pending” labels are retained, not reconfirmed as current platform or standards status. The official publication of non-binding Commission guidance C(2026) 5252 (2026-07-27) and Delegated Regulation 2026/881 were checked. Not every third-party resource or unpublished draft was independently verified. [Guidance publication](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation); [delegated regulation](https://eur-lex.europa.eu/eli/reg_del/2026/881/oj/eng). |
 | Revision history, contribution guide, and release dates | The contribution guide dates RC1 to 2026-08-23, while the revision history gives 2026-08-19. The checklist gives 2026-09-11 for version 1.0, while the history retains TBD and a blank author field. These discrepancies and historical item counts are preserved. |
+| §4.2.1 and references | The source's “CISA VEX minimum viable guidelines” corresponds to CISA's minimum-requirements document for VEX; rendered as 最低要求指南 with the English retained in parentheses, without changing the link target. |
 | §3.1.6 BSI link | The source mixes a URL with nested Markdown. The translation repairs the link syntax while retaining the existing destination. |
 
 Other labels and summaries may also require interpretation. Internal risk acceptance does not itself waive legal duties. SaaS scope, standards mappings, secure-development controls, and technical documentation must be checked against the applicable scope, assessment, and original authorities.
@@ -75,7 +83,7 @@ The historical translation preserves all **159 actual checklist items**, labels,
 | §2.5.9 | Article 32(5) permits qualifying Annex III FOSS products to use Article 32(1) procedures subject to conditions including public technical documentation; it does not generally replace Module A or notified-body routes. |
 | §3.1–3.4 and §4.1 | Some SBOM fields, dependency depths, tools, testing frequencies, and database choices are labelled “CRA REQUIREMENT.” Distinguish statutory requirements from implementation controls and consult the revised version 1.0 classifications. |
 | §4.4.2–4.4.5 and §4.4.7 | Article 14 requires notification to the coordinating CSIRT and ENISA. The severe-incident final report is generally due one month after the Article 14(4)(b) notification, not generically after the earliest warning. Vulnerability final-report content is specified in Article 14(2)(c). Without an EU main establishment, the receiving Member State is determined in the order specified in Article 14(7). |
-| §5.1.5 and §5.2.2 | Commercial-activity indicators do not establish manufacturer status independently of scope and role facts. Article 24(1) requires a steward's security policy to be documented in a verifiable manner, rather than generally requiring publication of the entire policy. Its specific cooperation and reporting duties also apply. |
+| §5.1.5 and §5.2.2 | Commercial-activity indicators do not establish manufacturer status independently of scope and role facts. Article 24(1) requires a steward to put in place and document a cybersecurity policy in a verifiable manner, rather than generally requiring publication of the entire policy. Its specific cooperation and reporting duties also apply. |
 | §2.4.4, §3.4.8, §6, §7.1, and §7.3 | Technical-documentation and declaration retention is principally addressed in Article 13(13); support periods in Article 13(8); continued availability of issued security updates in Article 13(9). Consider the free-update rule and exceptions in Annex I, Part II(8), rather than the draft's incorrect citations or shortened periods. |
 | Appendix A traceability matrix | The draft's numbering and summaries are not a verbatim statutory mapping. Verify them against Annex I. The translation preserves the historical structure without independently certifying the mapping. |
 
@@ -86,5 +94,6 @@ The historical translation preserves all **159 actual checklist items**, labels,
 | 2026-09-13 | Added complete Chinese translations of the version 1.0 checklist and three supporting files, terminology, and review notes. |
 | 2026-09-13 | Split root documents by language; translated the contribution guide and PA_5.1 archive; added language navigation; changed Chinese latest to a link to the 1.0 Chinese text; deleted `Pre-Release-Versions/`; retained the license unchanged. |
 | 2026-09-13 | Replaced both root latest entries with the complete current texts; removed item-level translator-review links from the Chinese 1.0 checklist; deleted both root revision-history files while retaining the 1.0 archive; updated and verified legal-provision links on the CRA reference website. |
+| 2026-09-13 | Sentence-by-sentence bilingual review of the 1.0 checklist, Annex D, and these notes: unified terminology (技术文档, 在市场上提供, 第 I 类 / 第 II 类重要产品, 含数字要素的产品, 符合性推定, 符合性主张, 形成文件的, profile, 选择退出机制, 可追溯性矩阵); corrected definitional and legal wording (“markets” in the manufacturer definition, “separately marketed” in the PDE definition, written mandate, NIS2 essential entities, the subject of the Article 14(7) main-establishment fallback, etc.); removed ambiguous or translationese sentences; escaped table-note asterisks. Root latest and `1.0/zh-CN/` updated in sync. |
 
 Translations do not automatically track English updates. Record source commits and change scope in subsequent revisions. Propose substantive source changes through the [contribution process](CONTRIBUTING.en.md), clearly identifying them rather than silently rewriting the translation.
