@@ -1,3 +1,7 @@
+[简体中文](zh-CN/CRA_Checklist_Requirement_PA_5.1.md) | **English** | [Archive guide](README.en.md)
+
+> **Historical draft, not the current version.** The source contains incorrect citations and superseded formulations. See the [archive review notes](../TRANSLATION_NOTES.en.md#archive-review) and the [current 1.0 checklist](../1.0/CRA_Checklist_Requirement_v1.0.md). The filename PA_5.1 and internal PA5 designation are retained.
+
 
 
 | OpenChain-Aligned Cyber Resilience Act (CRA) Compliance Requirements & Checklist Self-Certification Document   \-   ISO/IEC 18974 Aligned   \-   EU Regulation 2024/2847 |

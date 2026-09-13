@@ -1,6 +1,6 @@
-[简体中文](zh-CN/REVISION_HISTORY.md) | **English** | [Version guide](README.en.md)
-
 # Revision History
+
+[简体中文](REVISION_HISTORY.md) | **English**
 
 This supporting evidence register records the authorship, review cycles, and major changes for the OpenChain CRA Compliance Requirements & Checklist.
 

@@ -1,6 +1,6 @@
-[简体中文](zh-CN/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md) | **English** | [Version guide](README.en.md)
-
 # Annex D - External References, Use, Tooling, and Adoption
+
+[简体中文](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md) | **English**
 
 This living register supports the OpenChain CRA Compliance Requirements & Checklist.
 

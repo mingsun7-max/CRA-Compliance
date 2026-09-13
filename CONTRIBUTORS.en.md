@@ -1,6 +1,6 @@
-[简体中文](zh-CN/CONTRIBUTORS.md) | **English** | [Version guide](README.en.md)
-
 # Contributors and Reviewers
+
+[简体中文](CONTRIBUTORS.md) | **English**
 
 This supporting evidence register records the people and organizations that contributed review comments, corrections, implementation guidance, references, or drafting support to the OpenChain CRA Compliance Requirements & Checklist.
 

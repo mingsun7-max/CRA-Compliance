@@ -1,3 +1,5 @@
+**简体中文** | [English](../ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md) | [版本目录](../README.md)
+
 # 附录 D——外部引用、使用、工具与采用情况
 
 > 非官方简体中文译本。译自 [1.0 英文原文](../ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)，基准提交 `cd497f7a5a8daca97e50d049bfd9d4a6c60376e9`，翻译日期：2026-09-13。机构名称、产品名称、证据链接及状态代码保留原样；本译文转述原登记册，不另行确认各机构的采用事实或为其背书。“确认材料已存档”是原项目的记录状态，译者未查阅该等非公开材料。译者说明与许可证见[中文导读](README.md)。

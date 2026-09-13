@@ -1,3 +1,5 @@
+**简体中文** | [English](../CRA_Checklist_Requirement_v1.0.md) | [版本目录](../README.md)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/OpenChain-Project/Image-Assets/master/Official/Project-Logo/Long-Logo/long-logo.png" alt="OpenChain 项目" width="360">
 </p>

@@ -1,84 +1,69 @@
-# OpenChain CRA Compliance Requirements & Checklist
+# OpenChain CRA 合规要求与检查清单
 
-The OpenChain CRA Compliance Requirements & Checklist is a community-maintained, OpenChain-aligned self-certification and readiness resource for organizations preparing for EU Cyber Resilience Act obligations.
+**简体中文** | [English](README.en.md)
 
-It is mapped to Regulation (EU) 2024/2847 and aligned with ISO/IEC 18974, ISO/IEC 5230, and relevant SBOM guidance including BSI TR-03183.
+本仓库提供 OpenChain CRA 合规要求与检查清单及非官方中文译本，涵盖开源软件治理、软件物料清单（SBOM）、漏洞处理与供应链管理，帮助组织开展欧盟《网络韧性法案》（CRA）合规准备与证据管理。
 
-## 简体中文版 / Simplified Chinese
+**当前版本：1.0（2026 年 9 月 11 日）** · [阅读中文清单](1.0/zh-CN/CRA_Checklist_Requirement_v1.0.md) · [英文原文](1.0/CRA_Checklist_Requirement_v1.0.md)
 
-**Version 1.0 now has an unofficial Simplified Chinese translation**, covering all 193 checklist items, the implementation roadmap, annexes, references, and the three supporting registers.
+## 内容与适用范围
 
-**现已提供 1.0 版本的非官方简体中文译本**，包括完整主清单及三份配套文件，保留英文原文，并另附术语对照、版本来源及译者核对提示。
+本清单由 OpenChain 社区维护，映射至欧盟第 2024/2847 号条例，并与 ISO/IEC 18974、ISO/IEC 5230 及 BSI TR-03183 等相关指引衔接。CRA 适用性取决于产品范围、市场提供行为及组织角色，不能仅凭是否使用开源软件判断。
 
-- [中文导读与翻译说明 / Chinese guide and translation notes](1.0/zh-CN/README.md)
-- [CRA 合规要求与检查清单 1.0 / Full checklist](1.0/zh-CN/CRA_Checklist_Requirement_v1.0.md)
-- [外部引用与采用情况 / External references and adoption](1.0/zh-CN/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
-- [贡献者与审阅者 / Contributors and reviewers](1.0/zh-CN/CONTRIBUTORS.md)
-- [修订历史 / Revision history](1.0/zh-CN/REVISION_HISTORY.md)
+主清单包含引言及八个检查章节，共 **193 个检查项**，另附实施路线图、自我认证汇总、术语表、要求映射及参考资料。
 
-Translation date: **2026-09-13**. Source: version 1.0 at commit `cd497f7a5a8daca97e50d049bfd9d4a6c60376e9`. The translation is a reference draft for review, has not been endorsed by OpenChain or signed off by qualified legal counsel, and does not constitute legal advice or certification. Check the English source for translation ambiguities and the applicable official EU legal texts for legal obligations. It does not automatically track future `latest` updates. The translation is provided under the repository's CC-BY-4.0 license.
+| 章节 | 主题 | 检查项数 |
+| :---- | :---- | ----: |
+| 2 | 合规体系架构与治理 | 46 |
+| 3 | 组件管理、SBOM、来源与安全开发 | 57 |
+| 4 | 漏洞处理、VEX 与第 14 条报告 | 35 |
+| 5 | 开源软件管理 | 15 |
+| 6 | 安全更新与支持期 | 7 |
+| 7 | 技术文档、符合性声明与供应链共享 | 20 |
+| 8 | 跨框架衔接 | 8 |
+| 9 | 采购与买方义务 | 5 |
 
-译文为供审阅的参考译稿，未经 OpenChain 官方认可或合格律师签署确认；不构成法律意见或认证，也不自动跟随 `latest` 更新。翻译歧义应核对英文原文，法律义务以适用的欧盟官方法律文本为准。译文沿用仓库 CC-BY-4.0 许可。
+## 主要内容
 
-## Overview
+- 第 14 条三阶段报告、RACI 职责与桌面演练：24 小时早期预警、72 小时通知；漏洞最终报告通常在纠正或缓解措施可用后 14 日内提交，严重事件最终报告通常在 72 小时通知提交后一个月内提交。
+- SBOM 依赖深度、文件／代码片段引用、来源证明与签名，以及硬件产品的 HBOM。
+- 安全开发、构建基础设施、秘密信息管理及发布门禁。
+- 商业现成软件（COTS）、SDK、ODM／OEM 组件、外包开发及免费软件的供应链资格审查。
+- 遗留、派生及内部维护开源组件的管理控制。
+- 欧盟符合性声明流程及附件 V 模板结构；按适用情形实施授权代表操作程序。
+- NIS2、《人工智能法案》、DORA、《数据法案》及 eIDAS 等框架衔接，另附外部引用、贡献者与修订记录。
 
-The CRA (Regulation (EU) 2024/2847) establishes mandatory cybersecurity requirements for products with digital elements placed on the EU market. Organizations that develop, maintain, or distribute software with digital elements must ensure their products meet essential cybersecurity requirements throughout the product lifecycle.
+上述报告期限须结合触发条件、具体报告类型及法定例外适用，见[翻译核对提示](TRANSLATION_NOTES.md#source-review)。
 
-The checklist covers program governance, product assessment, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, technical-file evidence, security updates, and supply-chain obligations.
+## 双语文档
 
-## Repository Contents
+| 文档 | 简体中文 | English |
+| :---- | :---- | :---- |
+| 当前清单入口 | [latest](CRA_Checklist_Requirement_latest.md) | [latest](CRA_Checklist_Requirement_latest.en.md) |
+| 1.0 版本清单 | [中文全文](1.0/zh-CN/CRA_Checklist_Requirement_v1.0.md) | [英文全文](1.0/CRA_Checklist_Requirement_v1.0.md) |
+| 贡献指南 | [中文](CONTRIBUTING.md) | [English](CONTRIBUTING.en.md) |
+| 贡献者与审阅者 | [中文](CONTRIBUTORS.md) | [English](CONTRIBUTORS.en.md) |
+| 修订历史 | [中文](REVISION_HISTORY.md) | [English](REVISION_HISTORY.en.md) |
+| 外部引用与采用情况 | [中文](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md) | [English](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.en.md) |
+| 翻译说明与核对提示 | [中文](TRANSLATION_NOTES.md) | [English](TRANSLATION_NOTES.en.md) |
+| 许可证（仅保留原文） | [LICENSE](LICENSE) | [LICENSE](LICENSE) |
+| 版本目录 | [1.0](1.0/README.md) | [1.0](1.0/README.en.md) |
+| 历史归档 | [versions](versions/README.md) | [versions](versions/README.en.md) |
 
-| File | Description |
-|---|---|
-| `CRA_Checklist_Requirement_latest.md` | Release-target checklist on this branch, currently matching the version 1.0 |
-| `CONTRIBUTING.md` | Review and contribution workflow |
-| `CONTRIBUTORS.md` | Contributor and reviewer register |
-| `REVISION_HISTORY.md` | Review cycle and major change register |
-| `ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md` | External references, use, tooling, and adoption register |
-| `1.0` | Archive directory for checklist version 1.0 |
-| [`1.0/zh-CN`](1.0/zh-CN/README.md) | Unofficial Simplified Chinese translations of version 1.0 and its supporting registers, with translation notes |
-| `Pre-Release-Versions` | Archive directory for pre-release checklist versions |
+根目录默认使用中文，英文文档采用 `.en.md` 后缀。1.0 英文原文保留在 `1.0/`，完整中文译文位于 `1.0/zh-CN/`。根目录 `CRA_Checklist_Requirement_latest.md` 是指向 1.0 中文全文的链接页，不另行维护清单副本。`Pre-Release-Versions/` 已移除；仍保留的历史稿仅供追溯。
 
-## Checklist Structure
+## 使用说明
 
-Version 1.0 covers 9 sections and 193 checklist items:
+中文译文保留原文编号、要求强度、适用条件及证据栏。原文中的法律概括、历史状态或待确认事项，已在[翻译说明](TRANSLATION_NOTES.md)中标示必要核对提示。
 
-| Section | Topic | Items |
-|---|---|---|
-| 2 | Program Architecture and Governance | 46 |
-| 3 | Component Management, SBOM Quality, Provenance, and Secure Development | 57 |
-| 4 | Vulnerability Handling, VEX, and Art. 14 Reporting | 35 |
-| 5 | OSS Stewardship | 15 |
-| 6 | Security Updates and Support Period | 7 |
-| 7 | Technical File, DoC, and Supply Chain Sharing | 20 |
-| 8 | Cross-Framework Integration (NIS2, AI Act, DORA, Data Act) | 8 |
-| 9 | Procurement and Buyer-Side Obligations | 5 |
+本清单及其译文是合规准备与证据管理工具。填写或签署清单不等于完成 CRA 符合性评定、出具欧盟符合性声明或合法加贴 CE 标志。中文译文未经 OpenChain 官方认可，不构成法律意见。翻译歧义应核对英文原文；法律义务以适用的欧盟官方法律文本为准。
 
-## Key Features
+CRA 第 14 条自 **2026 年 9 月 11 日**起适用，法规通常自 **2027 年 12 月 11 日**起适用；仍须结合具体条款、角色及过渡安排判断。[CRA 官方文本，第 69、71 条](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120)
 
-- Art. 14 three-stage reporting cascade (24h Early Warning / 72h Notification / 14-day Final Report) with RACI and tabletop exercise requirements
-- SBOM quality controls including dependency depth, file/snippet reference handling, provenance, signing, and HBOM for hardware products
-- Secure development, secure build infrastructure, secrets management, and release-gate controls
-- Third-party software supply chain qualification for COTS, SDKs, ODM/OEM components, outsourced development, and freeware
-- Self-maintained open source software controls for legacy, forked, or internally maintained components
-- EU Declaration of Conformity workflow with Annex V template structure
-- Authorized Representative operational procedures for non-EU manufacturers
-- Supporting registers for external references, contributors, and revision history
+## 贡献与许可
 
-## Status
+翻译问题及改进建议请通过本仓库的议题或拉取请求提出；原清单的实质修订遵循[贡献指南](CONTRIBUTING.md)所述上游流程。
 
-Current main release : **Version 1.0**
+本仓库采用 **CC-BY-4.0**。转载或改编时，请保留原作署名、来源、许可信息及修改说明。主要作者为 Devashri Datta，完整署名见[贡献者与审阅者](CONTRIBUTORS.md)。
 
-## Contribution Workflow
-
-Feedback and proposed changes are tracked through GitHub issues and pull requests. Community comments may also be submitted through the public Google Doc during review windows.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full review and contribution workflow.
-
-## License
-
-CC-BY-4.0 - See [LICENSE](LICENSE) for details.
-
-## Contributors and Reviewers
-
-Contributor and reviewer details are maintained in [CONTRIBUTORS.md](CONTRIBUTORS.md).
+[上游项目](https://github.com/OpenChain-Project/CRA-Compliance) · [OpenChain CRA 项目网站](https://cra-compliance.openchainproject.org)
